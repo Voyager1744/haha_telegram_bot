@@ -1,6 +1,8 @@
-import anecdotica as acalib
 import os
+
 from dotenv import load_dotenv
+
+import anecdotica as acalib
 
 load_dotenv()
 

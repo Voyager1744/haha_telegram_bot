@@ -1,10 +1,10 @@
 import os
 
-from make_joke import get_joke
-
 from dotenv import load_dotenv
 from telegram import Bot, ReplyKeyboardMarkup
 from telegram.ext import CommandHandler, Filters, MessageHandler, Updater
+
+from make_joke import get_joke
 
 load_dotenv()
 
