@@ -22,7 +22,7 @@ def wake_up(update, context):
     )
     context.bot.send_message(
         chat_id=chat.id,
-        text='Привет! Сисек нет, но я теперь умею рассказывать анекдоты =)',
+        text='Привет! я умею рассказывать анекдоты =)',
         reply_markup=button
     )
 
